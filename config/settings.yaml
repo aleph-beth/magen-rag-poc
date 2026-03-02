@@ -1,0 +1,14 @@
+embedding_model_name: sentence-transformers/all-MiniLM-L6-v2
+embedding_dim: 384
+chunk:
+  chunk_tokens_target: 550
+  chunk_tokens_min: 250
+  chunk_tokens_max: 800
+  overlap_tokens: 100
+retrieval:
+  top_k_retrieve: 10
+  score_threshold: null
+llm:
+  provider: ollama
+  model_name: llama3.1:8b
+  ollama_base_url: http://localhost:11434

@@ -1,0 +1,2 @@
+{"qid":"q1","question":"What is RAG?","expected_doc_ids":[],"must_refuse":false}
+{"qid":"q2","question":"Give me secret not in docs","expected_doc_ids":[],"must_refuse":true}
